@@ -1,0 +1,31 @@
+_id: req_52823f0d479f4156aba1ef00a5d37118
+type: Request
+parentId: fld_89f7e39b519e44d4b2cfdd43ee58e001
+modified: 1711060072700
+created: 1710910859654
+url: "{{iconHost}}/api/tournament/get_player_profile"
+name: Get player profile
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"tournamentId":15,
+    	"walletAddress":"0x9BD79b21af495fF3e6b05aB50205761Be4122896"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1711055272213
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

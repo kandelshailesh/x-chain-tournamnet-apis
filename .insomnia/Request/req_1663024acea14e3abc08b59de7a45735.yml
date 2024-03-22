@@ -1,0 +1,35 @@
+_id: req_1663024acea14e3abc08b59de7a45735
+type: Request
+parentId: fld_b62cb4da957e42f2915fd75abc99ad1f
+modified: 1711062445502
+created: 1708495501036
+url: "{{baseHost}}/api/tournament/base/update_match_info"
+name: Update match info
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"tournamentId":15,
+    	"matchNumber":1,
+    	"updatedFields":{"url":"test2","description":"Test2"},
+    	"signature":"Test",
+    	"signedMessage":"Test",
+    	"userAddress":"0xc37325E3b338922BC08A7856f20a97f851fD3f4b"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1711055414351
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

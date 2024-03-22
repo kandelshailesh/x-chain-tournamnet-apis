@@ -1,0 +1,31 @@
+_id: req_fe559e3bd0d94f798f20efaad3b7c0dc
+type: Request
+parentId: fld_9a9c26cd234c411e82d974d05482604a
+modified: 1711060292281
+created: 1710833054174
+url: "{{baseHost}}/api/tournament/get_team_info"
+name: Get team info
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"teamId":"chain2_8_1",
+    	"tournamentId":8
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1711055169541
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

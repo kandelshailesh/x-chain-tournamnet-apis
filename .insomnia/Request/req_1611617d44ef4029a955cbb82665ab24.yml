@@ -1,0 +1,30 @@
+_id: req_1611617d44ef4029a955cbb82665ab24
+type: Request
+parentId: fld_5d522f5827334366b4fb5de708ee92f9
+modified: 1711060048237
+created: 1710387341865
+url: "{{baseHost}}/api/tournament/get_wallet_linked_status"
+name: Get wallet link status
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userAddress":"0x9BD79b21af495fF3e6b05aB50205761Be4122896"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1711055134116
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

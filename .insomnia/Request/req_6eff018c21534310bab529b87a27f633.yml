@@ -1,0 +1,30 @@
+_id: req_6eff018c21534310bab529b87a27f633
+type: Request
+parentId: fld_b62cb4da957e42f2915fd75abc99ad1f
+modified: 1711061175639
+created: 1710850044409
+url: "{{baseHost}}/api/tournament/get_scheduled_matches"
+name: Get scheduled matches
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"tournamentId":15
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1711055414476
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

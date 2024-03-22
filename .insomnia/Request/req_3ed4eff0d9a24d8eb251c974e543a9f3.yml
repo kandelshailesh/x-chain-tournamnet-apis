@@ -1,0 +1,35 @@
+_id: req_3ed4eff0d9a24d8eb251c974e543a9f3
+type: Request
+parentId: fld_9a9c26cd234c411e82d974d05482604a
+modified: 1711060785775
+created: 1711060785775
+url: "{{baseHost}}/api/tournament/base/join_team"
+name: Join icon team
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"tournamentId":15,
+    	"userAddress":"0x9BD79b21af495fF3e6b05aB50205761Be4122896",
+    	"teamId":"chain2_15_1",
+    	"message": "Time:1707910003750",
+    "signature":"0xe40e1a9b01721eeb9d097a505cfbc1f0a748cb84f110042add62d08ecc2d182b7816a0228d626961bd5b43a9eec46f7e004d640066343d2a6f439265412e02821c"
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1711055169466
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

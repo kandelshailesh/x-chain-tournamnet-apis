@@ -1,0 +1,16 @@
+_id: env_e91aac284d334c57ae21538553e6615b
+type: Environment
+parentId: env_3c6091786ab042292d7851799ffdca4bb0d95e61
+modified: 1711057367785
+created: 1711055807117
+name: Local
+data:
+  iconHost: http://localhost:3004
+  baseHost: http://localhost:3003
+dataPropertyOrder:
+  "&":
+    - iconHost
+    - baseHost
+color: null
+isPrivate: false
+metaSortKey: 1711055807117

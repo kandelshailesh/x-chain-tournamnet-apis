@@ -1,0 +1,39 @@
+_id: req_98a7b56110f243fd8cce54137a7f13d5
+type: Request
+parentId: fld_b62cb4da957e42f2915fd75abc99ad1f
+modified: 1711063567553
+created: 1711061691811
+url: "{{iconHost}}/api/tournament/icon/join_match"
+name: Join match icon
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"tournamentId":15,
+    	"matchNumber":1,
+    	"userAddress":"hxd4fdadda8a170ae070c9973a8b4963f3e11671d9",
+    	"assets":{
+    		"abilities":["test"],
+    		"equipments":["test1","test2"],
+    		"items":["test3","test4","Test5"]
+    	},
+    	"signedMessage":"testing",
+    	"signature":"testing"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1711055414401
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,16 @@
+_id: env_26f58794f427461c8dc18131d6c20745
+type: Environment
+parentId: env_3c6091786ab042292d7851799ffdca4bb0d95e61
+modified: 1711055846637
+created: 1711055846637
+name: New Environment (Copy)
+data:
+  iconHost: http://localhost:3002
+  baseHost: http://localhost:3003
+dataPropertyOrder:
+  "&":
+    - iconHost
+    - baseHost
+color: null
+isPrivate: false
+metaSortKey: 1711055807167

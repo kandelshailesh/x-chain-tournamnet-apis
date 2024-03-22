@@ -1,0 +1,23 @@
+_id: req_b387c843c40346908c4e60ae6051db0d
+type: Request
+parentId: fld_db6054b7bb944396ad3d62f0dce464c4
+modified: 1711057994308
+created: 1706633632789
+url: "{{iconHost}}/api/tournament/info?tournamentId=8"
+name: Tournament Info
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1711055269835
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

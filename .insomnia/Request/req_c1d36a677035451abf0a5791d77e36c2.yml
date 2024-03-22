@@ -1,0 +1,31 @@
+_id: req_c1d36a677035451abf0a5791d77e36c2
+type: Request
+parentId: fld_9a9c26cd234c411e82d974d05482604a
+modified: 1711060838629
+created: 1710919521989
+url: "{{baseHost}}/api/tournament/get_teams_stats"
+name: Get all team stats
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"tournamentId":15,
+    	"chain":"base"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1711055169441
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
