@@ -1,0 +1,65 @@
+_id: req_4a1b2e5e0bc0430d84764d8afc6aff40
+type: Request
+parentId: fld_db6054b7bb944396ad3d62f0dce464c4
+modified: 1711099131355
+created: 1711097254926
+url: "{{iconHost}}/api/tournament/get_active_tournament"
+name: Get active tournament
+description: |-
+  Response
+
+  ```
+  {
+  	"message": "Active tournament fetched successfully",
+  	"data": {
+  		"chain1PaymentDetails": {
+  			"paymentMethod": "ICX",
+  			"fee": 1
+  		},
+  		"chain2PaymentDetails": {
+  			"paymentMethod": "USDC",
+  			"fee": 1
+  		},
+  		"_id": "65fd328ab777ff56712868a3",
+  		"tournamentId": 40,
+  		"maxPlayersEachChain": 16,
+  		"title": "X-Chain Tournament",
+  		"description": "X-Chain Tournament Desc",
+  		"allowedLevels": [
+  			1,
+  			2,
+  			3,
+  			4,
+  			5,
+  			6,
+  			7,
+  			8,
+  			9,
+  			10
+  		],
+  		"isCancelled": 0,
+  		"chain1Type": "ICON",
+  		"chain2Type": "BASE",
+  		"startTime": 1711092794253,
+  		"createdAt": "2024-03-22T07:26:02.264Z",
+  		"updatedAt": "2024-03-22T07:26:02.264Z",
+  		"__v": 0,
+  		"hasEnded": false
+  	}
+  }
+  ```
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1711055269935
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

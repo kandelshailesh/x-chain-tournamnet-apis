@@ -1,22 +1,26 @@
 _id: req_055ba30e42e146759a21e5f2303ad999
 type: Request
 parentId: fld_db6054b7bb944396ad3d62f0dce464c4
-modified: 1711088433083
+modified: 1711091078123
 created: 1706635936925
 url: "{{baseHost}}/api/tournament/base/get_payment_server_sig"
 name: Get Payment Signature Base
 description: |-
   ```
   {
-  	"tournamentId": 8,
-  	"userAddress": "0xc37325E3b338922BC08A7856f20a97f851fD3f4b",
-  	"nftId": 22,
-  	"amount": 1,
-  	"tokenAddress": "0x7d12f0F0C41D7F4F00a4E91900A531D695637d32",
-  	"r": "0x631cf5b444d4aeb8165b8d7570ef59ada877326f2ec2d50648558752fa5774cc",
-  	"s": "0x1f68ed261895c627851c4343760de1c2adfbf2ee3e6db952e8b04fbf265058d9",
-  	"v": "0x1c",
-  	"timestamp": 1711059358
+  	"message": "Tournament payment signature fetched successfully",
+  	"data": {
+  		"tournamentId": 8,
+  		"userAddress": "0xc37325E3b338922BC08A7856f20a97f851fD3f4b",
+  		"signedMessage": "Time:1707378799542",
+  		"nftId": 22,
+  		"amount": 1,
+  		"tokenAddress": "0x7d12f0F0C41D7F4F00a4E91900A531D695637d32",
+  		"r": "0xf45b9487582488c153cbbd49545f08396d73dd1985163e73c655300a0328d4e1",
+  		"s": "0x76053f2553130762b3f6f700557c626da2ed22a82f486d389d4274139b34f2d0",
+  		"v": "0x1b",
+  		"timestamp": 1711091062
+  	}
   }
 method: POST
 body:
@@ -25,7 +29,7 @@ body:
     {
     	"tournamentId":8,
     	"userAddress":"0xc37325E3b338922BC08A7856f20a97f851fD3f4b",
-    	"message": "Time:1707378799542",
+    	"signedMessage": "Time:1707378799542",
     "signature":"0x96a9f930c176a8afc96ba11bceacb84f2d57258eb04e3072cb4f1d7d3e99d3784716e0c982cc1abcd29747f47e31b668bebfe0e07f16f72252f42daf50a2d67d1b",
     	"nftId":22
     }

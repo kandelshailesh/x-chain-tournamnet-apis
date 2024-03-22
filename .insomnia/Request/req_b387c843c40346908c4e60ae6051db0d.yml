@@ -1,10 +1,10 @@
 _id: req_b387c843c40346908c4e60ae6051db0d
 type: Request
 parentId: fld_db6054b7bb944396ad3d62f0dce464c4
-modified: 1711088398721
+modified: 1711098469911
 created: 1706633632789
-url: "{{iconHost}}/api/tournament/info?tournamentId=8"
-name: Tournament Info
+url: "{{iconHost}}/api/tournament/get_tournament_info?tournamentId=8"
+name: Get tournament Info
 description: >-
   ```
 

@@ -1,0 +1,74 @@
+_id: req_b69ddad6da4e47dc8a2f1d4d8c511914
+type: Request
+parentId: fld_db6054b7bb944396ad3d62f0dce464c4
+modified: 1711099120556
+created: 1711098493186
+url: "{{iconHost}}/api/tournament/update_tournament_info"
+name: Update tournament info
+description: |-
+  Response 
+
+  ```
+  {
+  	"message": "Tournament info updated successfully",
+  	"data": {
+  		"tournamentId": 40,
+  		"maxPlayersEachChain": 16,
+  		"chain1PaymentDetails": {
+  			"paymentMethod": "ICX",
+  			"fee": 1
+  		},
+  		"chain2PaymentDetails": {
+  			"paymentMethod": "USDC",
+  			"fee": 1
+  		},
+  		"title": "X-Chain Tournament",
+  		"description": "X-Chain Tournament Desc",
+  		"allowedLevels": [
+  			1,
+  			2,
+  			3,
+  			4,
+  			5,
+  			6,
+  			7,
+  			8,
+  			9,
+  			10
+  		],
+  		"isCancelled": 0,
+  		"chain1Type": "ICON",
+  		"chain2Type": "BASE",
+  		"startTime": 1711092794253,
+  		"hasEnded": true,
+  		"_id": "65fd328ab777ff56712868a3",
+  		"createdAt": "2024-03-22T07:26:02.264Z",
+  		"updatedAt": "2024-03-22T09:16:41.404Z",
+  		"__v": 0
+  	}
+  }
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"tournamentId":40,
+    	"updatedFields":{
+    		"hasEnded":true
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1711055269816.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
