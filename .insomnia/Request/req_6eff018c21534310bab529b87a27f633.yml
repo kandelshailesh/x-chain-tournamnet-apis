@@ -1,11 +1,240 @@
 _id: req_6eff018c21534310bab529b87a27f633
 type: Request
 parentId: fld_b62cb4da957e42f2915fd75abc99ad1f
-modified: 1711061175639
+modified: 1711088847010
 created: 1710850044409
 url: "{{baseHost}}/api/tournament/get_scheduled_matches"
 name: Get scheduled matches
-description: ""
+description: >-
+  ```
+
+  {
+  	"message": "Scheduled match fetched successfully",
+  	"data": [
+  		{
+  			"matchNumber": 1,
+  			"startTime": 1711188563186000,
+  			"title": "Mob Kings vs Crime Cartel",
+  			"description": "",
+  			"winner": null,
+  			"url": "",
+  			"isCancelled": 0,
+  			"error": null,
+  			"isComplete": 0,
+  			"teamAId": "chain1_15_1",
+  			"teamBId": "chain2_15_1",
+  			"players": [
+  				{
+  					"assets": {
+  						"abilities": [],
+  						"equipments": [],
+  						"items": []
+  					},
+  					"nftId": 1,
+  					"teamId": "chain1_15_1",
+  					"currentHolder": "hxd4fdadda8a170ae070c9973a8b4963f3e11671d9",
+  					"primaryEquipment": null,
+  					"_id": "65fcc52e31bcad799ad43263"
+  				},
+  				{
+  					"assets": {
+  						"abilities": [],
+  						"equipments": [],
+  						"items": []
+  					},
+  					"nftId": 2,
+  					"teamId": "chain1_15_1",
+  					"currentHolder": "hx54e73d3e39fe060a2cf3978f2c8d8934c540ccec",
+  					"primaryEquipment": null,
+  					"_id": "65fcc52e31bcad799ad43264"
+  				},
+  				{
+  					"assets": {
+  						"abilities": [],
+  						"equipments": [],
+  						"items": []
+  					},
+  					"nftId": 3,
+  					"teamId": "chain1_15_1",
+  					"currentHolder": "hx4cdfd769b85bb1307d6772971288ff75cde4f2c5",
+  					"primaryEquipment": null,
+  					"_id": "65fcc52e31bcad799ad43265"
+  				},
+  				{
+  					"assets": {
+  						"abilities": [],
+  						"equipments": [],
+  						"items": []
+  					},
+  					"nftId": 4,
+  					"teamId": "chain1_15_1",
+  					"currentHolder": "hxd8cd762da02bf725d763c4f58f6f13d924999c1b",
+  					"primaryEquipment": null,
+  					"_id": "65fcc52e31bcad799ad43266"
+  				},
+  				{
+  					"assets": {
+  						"abilities": [],
+  						"equipments": [],
+  						"items": []
+  					},
+  					"nftId": 51,
+  					"teamId": "chain2_15_1",
+  					"currentHolder": "0xB8BF1AD25D602135dEcF9d40B3dC1cECa270419E",
+  					"primaryEquipment": null,
+  					"_id": "65fcc52e31bcad799ad43267"
+  				},
+  				{
+  					"assets": {
+  						"abilities": [],
+  						"equipments": [],
+  						"items": []
+  					},
+  					"nftId": 74,
+  					"teamId": "chain2_15_1",
+  					"currentHolder": "0x16973EfE6316B7d1521Adb82B7f6cCa09B73c07b",
+  					"primaryEquipment": null,
+  					"_id": "65fcc52e31bcad799ad43268"
+  				},
+  				{
+  					"assets": {
+  						"abilities": [],
+  						"equipments": [],
+  						"items": []
+  					},
+  					"nftId": 63,
+  					"teamId": "chain2_15_1",
+  					"currentHolder": "0xc0954c03d08Fb58Cf98e482Ed9eAD069Dc53386a",
+  					"primaryEquipment": null,
+  					"_id": "65fcc52e31bcad799ad43269"
+  				}
+  			],
+  			"_id": "65fcc52e31bcad799ad43262",
+  			"roundType": "seedingRound",
+  			"roundNumber": 1,
+  			"teamADetails": {
+  				"teamId": "chain1_15_1",
+  				"teamCommonName": "Mob Kings",
+  				"teamInternalName": "Team A",
+  				"_id": "65f284a74cdd8cf5c810db59",
+  				"won": 0,
+  				"lost": 0,
+  				"chain": "ICON",
+  				"players": [
+  					{
+  						"nftId": 1,
+  						"teamId": "chain1_15_1",
+  						"name": "GangstaBet #1",
+  						"type": "CYBORG",
+  						"classType": "Marksman",
+  						"characterType": "Detective",
+  						"currentHolder": "hxd4fdadda8a170ae070c9973a8b4963f3e11671d9",
+  						"levelType": "Casino Worker",
+  						"levelNumber": 1,
+  						"imageUrl": "https://ipfs.io/ipfs/QmNSbSL35cdukZLHY7KSpqR2jvtAcqotnJ2HxKnYHHdSLg/4104.gif",
+  						"supportEquipment": null,
+  						"_id": "65f284b74cdd8cf5c810db6b"
+  					},
+  					{
+  						"nftId": 2,
+  						"teamId": "chain1_15_1",
+  						"name": "GangstaBet #2",
+  						"type": "HUMAN",
+  						"classType": "Pokerstar",
+  						"characterType": "Gangster",
+  						"currentHolder": "hx54e73d3e39fe060a2cf3978f2c8d8934c540ccec",
+  						"levelType": "Casino Worker",
+  						"levelNumber": 1,
+  						"imageUrl": "https://ipfs.io/ipfs/QmNSbSL35cdukZLHY7KSpqR2jvtAcqotnJ2HxKnYHHdSLg/2091.gif",
+  						"supportEquipment": null,
+  						"_id": "65f284b94cdd8cf5c810db77"
+  					},
+  					{
+  						"nftId": 3,
+  						"teamId": "chain1_15_1",
+  						"name": "GangstaBet #3",
+  						"type": "HUMAN",
+  						"classType": "Pokerstar",
+  						"characterType": "Gangster",
+  						"currentHolder": "hx4cdfd769b85bb1307d6772971288ff75cde4f2c5",
+  						"levelType": "Casino Worker",
+  						"levelNumber": 1,
+  						"imageUrl": "https://ipfs.io/ipfs/QmNSbSL35cdukZLHY7KSpqR2jvtAcqotnJ2HxKnYHHdSLg/4356.gif",
+  						"supportEquipment": null,
+  						"_id": "65f284bb4cdd8cf5c810db84"
+  					},
+  					{
+  						"nftId": 4,
+  						"teamId": "chain1_15_1",
+  						"name": "GangstaBet #4",
+  						"type": "HUMAN",
+  						"classType": "Commander",
+  						"characterType": "Gangster",
+  						"currentHolder": "hxd8cd762da02bf725d763c4f58f6f13d924999c1b",
+  						"levelType": "Casino Worker",
+  						"levelNumber": 1,
+  						"imageUrl": "https://ipfs.io/ipfs/QmNSbSL35cdukZLHY7KSpqR2jvtAcqotnJ2HxKnYHHdSLg/3665.gif",
+  						"supportEquipment": null,
+  						"_id": "65f284bc4cdd8cf5c810db92"
+  					}
+  				]
+  			},
+  			"teamBDetails": {
+  				"teamId": "chain2_15_1",
+  				"teamCommonName": "Crime Cartel",
+  				"teamInternalName": "Team A",
+  				"_id": "65f284a74cdd8cf5c810db5d",
+  				"won": 0,
+  				"lost": 0,
+  				"chain": "BASE",
+  				"players": [
+  					{
+  						"nftId": 51,
+  						"teamId": "chain2_15_1",
+  						"name": "GangstaBet #51",
+  						"type": "HUMAN",
+  						"classType": "Brains",
+  						"characterType": "Detective",
+  						"currentHolder": "0xB8BF1AD25D602135dEcF9d40B3dC1cECa270419E",
+  						"levelType": "Detective Superintendent",
+  						"levelNumber": 6,
+  						"imageUrl": "https://charactergeneration.s3.ap-south-1.amazonaws.com/gif/h4616.gif",
+  						"supportEquipment": null,
+  						"_id": "65f284d04cdd8cf5c810dcc3"
+  					},
+  					{
+  						"nftId": 74,
+  						"teamId": "chain2_15_1",
+  						"name": "GangstaBet #74",
+  						"type": "DINOSAUR",
+  						"classType": "Rumrunner",
+  						"characterType": "Gangster",
+  						"currentHolder": "0x16973EfE6316B7d1521Adb82B7f6cCa09B73c07b",
+  						"levelType": "Mob Boss",
+  						"levelNumber": 10,
+  						"imageUrl": "https://charactergeneration.s3.ap-south-1.amazonaws.com/gif/d14469.gif",
+  						"supportEquipment": null,
+  						"_id": "65f284d04cdd8cf5c810dce2"
+  					},
+  					{
+  						"nftId": 63,
+  						"teamId": "chain2_15_1",
+  						"name": "GangstaBet #63",
+  						"type": "GHOST",
+  						"classType": "Commander",
+  						"characterType": "Gangster",
+  						"currentHolder": "0xc0954c03d08Fb58Cf98e482Ed9eAD069Dc53386a",
+  						"levelType": "Body Guard",
+  						"levelNumber": 4,
+  						"imageUrl": "https://charactergeneration.s3.ap-south-1.amazonaws.com/gif/g238.gif",
+  						"supportEquipment": null,
+  						"_id": "65f284d04cdd8cf5c810dd02"
+  					}
+  				]
+  			}
+  		}
+  	]
+  }
 method: POST
 body:
   mimeType: application/json

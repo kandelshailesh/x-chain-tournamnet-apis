@@ -1,11 +1,121 @@
 _id: req_127b2f992c8e4d79acbad30e4c57610a
 type: Request
 parentId: fld_b62cb4da957e42f2915fd75abc99ad1f
-modified: 1711062226134
+modified: 1711088871427
 created: 1708915688837
 url: "{{baseHost}}/api/tournament/base/join_match"
 name: Join match base
-description: ""
+description: |-
+  ```
+  {
+  	"message": "Successfully joined the match",
+  	"data": {
+  		"matchNumber": 1,
+  		"startTime": 1721061630550000,
+  		"title": "Mob Kings vs Crime Cartel",
+  		"description": "",
+  		"winner": null,
+  		"url": "",
+  		"isCancelled": 1,
+  		"error": "Invalid timestamp!",
+  		"isComplete": 0,
+  		"teamAId": "chain1_15_1",
+  		"teamBId": "chain2_15_1",
+  		"players": [
+  			{
+  				"assets": {
+  					"abilities": [],
+  					"equipments": [],
+  					"items": []
+  				},
+  				"nftId": 1,
+  				"teamId": "chain1_15_1",
+  				"currentHolder": "hxd4fdadda8a170ae070c9973a8b4963f3e11671d9",
+  				"_id": "65fcb89f1d6751b900f6c86d"
+  			},
+  			{
+  				"assets": {
+  					"abilities": [],
+  					"equipments": [],
+  					"items": []
+  				},
+  				"nftId": 2,
+  				"teamId": "chain1_15_1",
+  				"currentHolder": "hx54e73d3e39fe060a2cf3978f2c8d8934c540ccec",
+  				"_id": "65fcb89f1d6751b900f6c86e"
+  			},
+  			{
+  				"assets": {
+  					"abilities": [],
+  					"equipments": [],
+  					"items": []
+  				},
+  				"nftId": 3,
+  				"teamId": "chain1_15_1",
+  				"currentHolder": "hx4cdfd769b85bb1307d6772971288ff75cde4f2c5",
+  				"_id": "65fcb89f1d6751b900f6c86f"
+  			},
+  			{
+  				"assets": {
+  					"abilities": [],
+  					"equipments": [],
+  					"items": []
+  				},
+  				"nftId": 4,
+  				"teamId": "chain1_15_1",
+  				"currentHolder": "hxd8cd762da02bf725d763c4f58f6f13d924999c1b",
+  				"_id": "65fcb89f1d6751b900f6c870"
+  			},
+  			{
+  				"assets": {
+  					"abilities": [
+  						"test"
+  					],
+  					"equipments": [
+  						"test1",
+  						"test2"
+  					],
+  					"items": [
+  						"test3",
+  						"test4",
+  						"Test5"
+  					]
+  				},
+  				"nftId": 51,
+  				"teamId": "chain2_15_1",
+  				"currentHolder": "0xB8BF1AD25D602135dEcF9d40B3dC1cECa270419E",
+  				"_id": "65fcb89f1d6751b900f6c871"
+  			},
+  			{
+  				"assets": {
+  					"abilities": [],
+  					"equipments": [],
+  					"items": []
+  				},
+  				"nftId": 74,
+  				"teamId": "chain2_15_1",
+  				"currentHolder": "0x16973EfE6316B7d1521Adb82B7f6cCa09B73c07b",
+  				"_id": "65fcb89f1d6751b900f6c872"
+  			},
+  			{
+  				"assets": {
+  					"abilities": [],
+  					"equipments": [],
+  					"items": []
+  				},
+  				"nftId": 63,
+  				"teamId": "chain2_15_1",
+  				"currentHolder": "0xc0954c03d08Fb58Cf98e482Ed9eAD069Dc53386a",
+  				"_id": "65fcb89f1d6751b900f6c873"
+  			}
+  		],
+  		"_id": "65fcb89f1d6751b900f6c86c",
+  		"tournamentId": 15,
+  		"roundType": "seedingRound",
+  		"roundNumber": 1,
+  		"matchIndex": 0
+  	}
+  }
 method: POST
 body:
   mimeType: application/json

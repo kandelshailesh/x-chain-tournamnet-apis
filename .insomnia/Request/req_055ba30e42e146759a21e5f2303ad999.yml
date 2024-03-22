@@ -1,11 +1,23 @@
 _id: req_055ba30e42e146759a21e5f2303ad999
 type: Request
 parentId: fld_db6054b7bb944396ad3d62f0dce464c4
-modified: 1711059435021
+modified: 1711088433083
 created: 1706635936925
 url: "{{baseHost}}/api/tournament/base/get_payment_server_sig"
 name: Get Payment Signature Base
-description: ""
+description: |-
+  ```
+  {
+  	"tournamentId": 8,
+  	"userAddress": "0xc37325E3b338922BC08A7856f20a97f851fD3f4b",
+  	"nftId": 22,
+  	"amount": 1,
+  	"tokenAddress": "0x7d12f0F0C41D7F4F00a4E91900A531D695637d32",
+  	"r": "0x631cf5b444d4aeb8165b8d7570ef59ada877326f2ec2d50648558752fa5774cc",
+  	"s": "0x1f68ed261895c627851c4343760de1c2adfbf2ee3e6db952e8b04fbf265058d9",
+  	"v": "0x1c",
+  	"timestamp": 1711059358
+  }
 method: POST
 body:
   mimeType: application/json

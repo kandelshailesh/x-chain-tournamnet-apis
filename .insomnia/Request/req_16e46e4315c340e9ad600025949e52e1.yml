@@ -1,11 +1,466 @@
 _id: req_16e46e4315c340e9ad600025949e52e1
 type: Request
 parentId: fld_b62cb4da957e42f2915fd75abc99ad1f
-modified: 1711061067414
+modified: 1711088494128
 created: 1708489898239
 url: "{{baseHost}}/api/tournament/base/create_seeding_round_matches"
 name: Initiate seeding round
-description: ""
+description: |-
+  ```
+  {
+  	"message": "Seeding round matches set successfully",
+  	"data": {
+  		"_id": "65fcb8312208cf0f932f15c1",
+  		"tournamentId": 15,
+  		"seedingRound": {
+  			"roundNumber": 1,
+  			"matches": [
+  				{
+  					"matchNumber": 1,
+  					"startTime": null,
+  					"title": "Mob Kings vs Crime Cartel",
+  					"description": "",
+  					"winner": null,
+  					"url": "",
+  					"isCancelled": 0,
+  					"error": null,
+  					"isComplete": 0,
+  					"teamAId": "chain1_15_1",
+  					"teamBId": "chain2_15_1",
+  					"players": [
+  						{
+  							"nftId": 1,
+  							"teamId": "chain1_15_1",
+  							"currentHolder": "hxd4fdadda8a170ae070c9973a8b4963f3e11671d9",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43263"
+  						},
+  						{
+  							"nftId": 2,
+  							"teamId": "chain1_15_1",
+  							"currentHolder": "hx54e73d3e39fe060a2cf3978f2c8d8934c540ccec",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43264"
+  						},
+  						{
+  							"nftId": 3,
+  							"teamId": "chain1_15_1",
+  							"currentHolder": "hx4cdfd769b85bb1307d6772971288ff75cde4f2c5",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43265"
+  						},
+  						{
+  							"nftId": 4,
+  							"teamId": "chain1_15_1",
+  							"currentHolder": "hxd8cd762da02bf725d763c4f58f6f13d924999c1b",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43266"
+  						},
+  						{
+  							"nftId": 51,
+  							"teamId": "chain2_15_1",
+  							"currentHolder": "0xB8BF1AD25D602135dEcF9d40B3dC1cECa270419E",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43267"
+  						},
+  						{
+  							"nftId": 74,
+  							"teamId": "chain2_15_1",
+  							"currentHolder": "0x16973EfE6316B7d1521Adb82B7f6cCa09B73c07b",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43268"
+  						},
+  						{
+  							"nftId": 63,
+  							"teamId": "chain2_15_1",
+  							"currentHolder": "0xc0954c03d08Fb58Cf98e482Ed9eAD069Dc53386a",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43269"
+  						}
+  					],
+  					"_id": "65fcc52e31bcad799ad43262"
+  				},
+  				{
+  					"matchNumber": 2,
+  					"startTime": null,
+  					"title": "Street Syndicate vs Mafia Marauders",
+  					"description": "",
+  					"winner": null,
+  					"url": "",
+  					"isCancelled": 0,
+  					"error": null,
+  					"isComplete": 0,
+  					"teamAId": "chain1_15_2",
+  					"teamBId": "chain2_15_2",
+  					"players": [
+  						{
+  							"nftId": 5,
+  							"teamId": "chain1_15_2",
+  							"currentHolder": "hxd8d357f4aca1a7339277d6d919d121525df7a598",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad4326b"
+  						},
+  						{
+  							"nftId": 6,
+  							"teamId": "chain1_15_2",
+  							"currentHolder": "hx24a7853af8bd57052726c4ea86ccabfb306ce20d",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad4326c"
+  						},
+  						{
+  							"nftId": 7,
+  							"teamId": "chain1_15_2",
+  							"currentHolder": "hxf0689b979aa3b3107df1793945c9a7d85d030c04",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad4326d"
+  						},
+  						{
+  							"nftId": 8,
+  							"teamId": "chain1_15_2",
+  							"currentHolder": "hx7a9d084e7794cbd16b2bfa17712531112b048581",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad4326e"
+  						},
+  						{
+  							"nftId": 123,
+  							"teamId": "chain2_15_2",
+  							"currentHolder": "0x0B643657253d465C0C8c20EdE8e98289d9d96E68",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad4326f"
+  						},
+  						{
+  							"nftId": 144,
+  							"teamId": "chain2_15_2",
+  							"currentHolder": "0x980fF7812C067046c1096d9f5619A84072D64d73",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43270"
+  						},
+  						{
+  							"nftId": 187,
+  							"teamId": "chain2_15_2",
+  							"currentHolder": "0xD25753d7AE35D05000c5D2c04Daf5D9780db997e",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43271"
+  						},
+  						{
+  							"nftId": 188,
+  							"teamId": "chain2_15_2",
+  							"currentHolder": "0x4f5992879183b5e3e9d4bBeA305AF880f59762F3",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43272"
+  						}
+  					],
+  					"_id": "65fcc52e31bcad799ad4326a"
+  				},
+  				{
+  					"matchNumber": 3,
+  					"startTime": null,
+  					"title": "Urban Outlaws vs Syndicate Soldiers",
+  					"description": "",
+  					"winner": null,
+  					"url": "",
+  					"isCancelled": 0,
+  					"error": null,
+  					"isComplete": 0,
+  					"teamAId": "chain1_15_3",
+  					"teamBId": "chain2_15_3",
+  					"players": [
+  						{
+  							"nftId": 9,
+  							"teamId": "chain1_15_3",
+  							"currentHolder": "hxf8b980dbb5d11c844ad8f106a97d7911bcaf0722",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43274"
+  						},
+  						{
+  							"nftId": 10,
+  							"teamId": "chain1_15_3",
+  							"currentHolder": "hx07b278bdd18e7b4661516195ad00bfbc9c4974b6",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43275"
+  						},
+  						{
+  							"nftId": 11,
+  							"teamId": "chain1_15_3",
+  							"currentHolder": "hx9f93e786a2a899435985f8113611437085359d6a",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43276"
+  						},
+  						{
+  							"nftId": 12,
+  							"teamId": "chain1_15_3",
+  							"currentHolder": "hx4c08f5574ca8f43d4f6923499c3d13ca1830bf47",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43277"
+  						},
+  						{
+  							"nftId": 223,
+  							"teamId": "chain2_15_3",
+  							"currentHolder": "0x23acf970ba4f2aC40db59F364af001d3883799BC",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43278"
+  						},
+  						{
+  							"nftId": 64,
+  							"teamId": "chain2_15_3",
+  							"currentHolder": "0x6C703eA2444aD412Ed14F850CbCb99D4c0fc2eD4",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43279"
+  						},
+  						{
+  							"nftId": 109,
+  							"teamId": "chain2_15_3",
+  							"currentHolder": "0xC41EDC6EB1d428BcE762AfF1bB0Bb9f6d5b7Ec1C",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad4327a"
+  						},
+  						{
+  							"nftId": 115,
+  							"teamId": "chain2_15_3",
+  							"currentHolder": "0x077C862BCE6A94B663408BF50518914F907953e4",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad4327b"
+  						}
+  					],
+  					"_id": "65fcc52e31bcad799ad43273"
+  				},
+  				{
+  					"matchNumber": 4,
+  					"startTime": null,
+  					"title": "Gangland Goliaths vs Hood Hustlers",
+  					"description": "",
+  					"winner": null,
+  					"url": "",
+  					"isCancelled": 0,
+  					"error": null,
+  					"isComplete": 0,
+  					"teamAId": "chain1_15_4",
+  					"teamBId": "chain2_15_4",
+  					"players": [
+  						{
+  							"nftId": 13,
+  							"teamId": "chain1_15_4",
+  							"currentHolder": "hxd82dabf91c9faae77fe84e39aa0cb985f7962099",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad4327d"
+  						},
+  						{
+  							"nftId": 14,
+  							"teamId": "chain1_15_4",
+  							"currentHolder": "hx7fb96a9ddfda16ae9e725b2f5274270859846546",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad4327e"
+  						},
+  						{
+  							"nftId": 15,
+  							"teamId": "chain1_15_4",
+  							"currentHolder": "hxbcb83c6abe3f23d18b22122cd066a719e73357a8",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad4327f"
+  						},
+  						{
+  							"nftId": 16,
+  							"teamId": "chain1_15_4",
+  							"currentHolder": "hx6e114bbf782069f2097b4593d8c32e3dad73198d",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43280"
+  						},
+  						{
+  							"nftId": 179,
+  							"teamId": "chain2_15_4",
+  							"currentHolder": "0x8eb041c262736aBd802073dbd674cc237d5a3DDD",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43281"
+  						},
+  						{
+  							"nftId": 199,
+  							"teamId": "chain2_15_4",
+  							"currentHolder": "0xC585E098ADe608f0E0336100234B58aBFFa4D510",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43282"
+  						},
+  						{
+  							"nftId": 201,
+  							"teamId": "chain2_15_4",
+  							"currentHolder": "0xb93b38873634Ba4af0746a673B80a7E732De90a5",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43283"
+  						},
+  						{
+  							"nftId": 18,
+  							"teamId": "chain2_15_4",
+  							"currentHolder": "0x35a8a2c54585AA3202D50F613319289853D9fFb5",
+  							"primaryEquipment": null,
+  							"assets": {
+  								"abilities": [],
+  								"equipments": [],
+  								"items": []
+  							},
+  							"_id": "65fcc52e31bcad799ad43284"
+  						}
+  					],
+  					"_id": "65fcc52e31bcad799ad4327c"
+  				}
+  			],
+  			"_id": "65fcc52e31bcad799ad43261"
+  		},
+  		"upperBracket": [],
+  		"lowerBracket": [],
+  		"createdAt": "2024-03-14T05:02:08.825Z",
+  		"updatedAt": "2024-03-21T23:39:26.831Z",
+  		"__v": 13
+  	}
+  }
 method: POST
 body:
   mimeType: application/json

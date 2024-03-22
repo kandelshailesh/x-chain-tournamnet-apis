@@ -1,11 +1,347 @@
 _id: req_fe559e3bd0d94f798f20efaad3b7c0dc
 type: Request
 parentId: fld_9a9c26cd234c411e82d974d05482604a
-modified: 1711060292281
+modified: 1711088915929
 created: 1710833054174
 url: "{{baseHost}}/api/tournament/get_team_info"
 name: Get team info
-description: ""
+description: |-
+  ```
+  {
+  	"message": "Team info fetched successfully",
+  	"data": {
+  		"tournamentId": 8,
+  		"teamId": "chain2_8_1",
+  		"teamCommonName": "Crime Cartel",
+  		"teamInternalName": "Team A",
+  		"_id": "65f012fa35472beb87936b24",
+  		"won": 1,
+  		"lost": 0,
+  		"chain": "BASE",
+  		"players": [],
+  		"scheduledMatches": [
+  			{
+  				"matchNumber": 1,
+  				"startTime": 1810910473651000,
+  				"title": "Mob Kings vs Crime Cartel",
+  				"description": "",
+  				"winner": "chain2_8_1",
+  				"url": "",
+  				"isCancelled": 0,
+  				"error": null,
+  				"isComplete": 1,
+  				"teamAId": "chain1_8_1",
+  				"teamBId": "chain2_8_1",
+  				"players": [
+  					{
+  						"assets": {
+  							"abilities": [],
+  							"equipments": [],
+  							"items": []
+  						},
+  						"nftId": 22,
+  						"teamId": "chain2_8_1",
+  						"currentHolder": "hxd4fdadda8a170ae070c9973a8b4963f3e11671d9",
+  						"_id": "65f15bb5da3fd45aec53011a"
+  					},
+  					{
+  						"assets": {
+  							"abilities": [],
+  							"equipments": [],
+  							"items": []
+  						},
+  						"nftId": 51,
+  						"teamId": "chain1_8_1",
+  						"currentHolder": "hx54e73d3e39fe060a2cf3978f2c8d8934c540ccec",
+  						"_id": "65f15bb5da3fd45aec53011b"
+  					},
+  					{
+  						"assets": {
+  							"abilities": [],
+  							"equipments": [],
+  							"items": []
+  						},
+  						"nftId": 74,
+  						"teamId": "chain1_8_1",
+  						"currentHolder": "hx4cdfd769b85bb1307d6772971288ff75cde4f2c5",
+  						"_id": "65f15bb5da3fd45aec53011c"
+  					},
+  					{
+  						"assets": {
+  							"abilities": [],
+  							"equipments": [],
+  							"items": []
+  						},
+  						"nftId": 63,
+  						"teamId": "chain1_8_1",
+  						"currentHolder": "hxd8cd762da02bf725d763c4f58f6f13d924999c1b",
+  						"_id": "65f15bb5da3fd45aec53011d"
+  					},
+  					{
+  						"assets": {
+  							"abilities": [],
+  							"equipments": [],
+  							"items": []
+  						},
+  						"nftId": 22,
+  						"teamId": "chain2_8_1",
+  						"currentHolder": "0x9BD79b21af495fF3e6b05aB50205761Be4122896",
+  						"_id": "65f15bb5da3fd45aec53011e"
+  					},
+  					{
+  						"assets": {
+  							"abilities": [],
+  							"equipments": [],
+  							"items": []
+  						},
+  						"nftId": 51,
+  						"teamId": "chain2_8_1",
+  						"currentHolder": "0xB8BF1AD25D602135dEcF9d40B3dC1cECa270419E",
+  						"_id": "65f15bb5da3fd45aec53011f"
+  					},
+  					{
+  						"assets": {
+  							"abilities": [],
+  							"equipments": [],
+  							"items": []
+  						},
+  						"nftId": 74,
+  						"teamId": "chain2_8_1",
+  						"currentHolder": "0x16973EfE6316B7d1521Adb82B7f6cCa09B73c07b",
+  						"_id": "65f15bb5da3fd45aec530120"
+  					},
+  					{
+  						"assets": {
+  							"abilities": [],
+  							"equipments": [],
+  							"items": []
+  						},
+  						"nftId": 63,
+  						"teamId": "chain2_8_1",
+  						"currentHolder": "0xc0954c03d08Fb58Cf98e482Ed9eAD069Dc53386a",
+  						"_id": "65f15bb5da3fd45aec530121"
+  					}
+  				],
+  				"_id": "65f15bb5da3fd45aec530119",
+  				"roundType": "seedingRound",
+  				"roundNumber": 1,
+  				"teamADetails": {
+  					"teamId": "chain1_8_1",
+  					"teamCommonName": "Mob Kings",
+  					"teamInternalName": "Team A",
+  					"_id": "65f012fa35472beb87936b20",
+  					"won": 0,
+  					"lost": 1,
+  					"chain": "ICON",
+  					"players": []
+  				},
+  				"teamBDetails": {
+  					"teamId": "chain2_8_1",
+  					"teamCommonName": "Crime Cartel",
+  					"teamInternalName": "Team A",
+  					"_id": "65f012fa35472beb87936b24",
+  					"won": 1,
+  					"lost": 0,
+  					"chain": "BASE",
+  					"players": []
+  				}
+  			}
+  		],
+  		"completedMatches": [
+  			{
+  				"matchNumber": 1,
+  				"startTime": 1810910473651000,
+  				"title": "Mob Kings vs Crime Cartel",
+  				"description": "",
+  				"winner": "chain2_8_1",
+  				"url": "",
+  				"isCancelled": 0,
+  				"error": null,
+  				"isComplete": 1,
+  				"teamAId": "chain1_8_1",
+  				"teamBId": "chain2_8_1",
+  				"players": [
+  					{
+  						"assets": {
+  							"abilities": [],
+  							"equipments": [],
+  							"items": []
+  						},
+  						"nftId": 22,
+  						"teamId": "chain2_8_1",
+  						"currentHolder": "hxd4fdadda8a170ae070c9973a8b4963f3e11671d9",
+  						"_id": "65f15bb5da3fd45aec53011a"
+  					},
+  					{
+  						"assets": {
+  							"abilities": [],
+  							"equipments": [],
+  							"items": []
+  						},
+  						"nftId": 51,
+  						"teamId": "chain1_8_1",
+  						"currentHolder": "hx54e73d3e39fe060a2cf3978f2c8d8934c540ccec",
+  						"_id": "65f15bb5da3fd45aec53011b"
+  					},
+  					{
+  						"assets": {
+  							"abilities": [],
+  							"equipments": [],
+  							"items": []
+  						},
+  						"nftId": 74,
+  						"teamId": "chain1_8_1",
+  						"currentHolder": "hx4cdfd769b85bb1307d6772971288ff75cde4f2c5",
+  						"_id": "65f15bb5da3fd45aec53011c"
+  					},
+  					{
+  						"assets": {
+  							"abilities": [],
+  							"equipments": [],
+  							"items": []
+  						},
+  						"nftId": 63,
+  						"teamId": "chain1_8_1",
+  						"currentHolder": "hxd8cd762da02bf725d763c4f58f6f13d924999c1b",
+  						"_id": "65f15bb5da3fd45aec53011d"
+  					},
+  					{
+  						"assets": {
+  							"abilities": [],
+  							"equipments": [],
+  							"items": []
+  						},
+  						"nftId": 22,
+  						"teamId": "chain2_8_1",
+  						"currentHolder": "0x9BD79b21af495fF3e6b05aB50205761Be4122896",
+  						"_id": "65f15bb5da3fd45aec53011e"
+  					},
+  					{
+  						"assets": {
+  							"abilities": [],
+  							"equipments": [],
+  							"items": []
+  						},
+  						"nftId": 51,
+  						"teamId": "chain2_8_1",
+  						"currentHolder": "0xB8BF1AD25D602135dEcF9d40B3dC1cECa270419E",
+  						"_id": "65f15bb5da3fd45aec53011f"
+  					},
+  					{
+  						"assets": {
+  							"abilities": [],
+  							"equipments": [],
+  							"items": []
+  						},
+  						"nftId": 74,
+  						"teamId": "chain2_8_1",
+  						"currentHolder": "0x16973EfE6316B7d1521Adb82B7f6cCa09B73c07b",
+  						"_id": "65f15bb5da3fd45aec530120"
+  					},
+  					{
+  						"assets": {
+  							"abilities": [],
+  							"equipments": [],
+  							"items": []
+  						},
+  						"nftId": 63,
+  						"teamId": "chain2_8_1",
+  						"currentHolder": "0xc0954c03d08Fb58Cf98e482Ed9eAD069Dc53386a",
+  						"_id": "65f15bb5da3fd45aec530121"
+  					}
+  				],
+  				"_id": "65f15bb5da3fd45aec530119",
+  				"roundType": "seedingRound",
+  				"roundNumber": 1,
+  				"teamADetails": {
+  					"teamId": "chain1_8_1",
+  					"teamCommonName": "Mob Kings",
+  					"teamInternalName": "Team A",
+  					"_id": "65f012fa35472beb87936b20",
+  					"won": 0,
+  					"lost": 1,
+  					"chain": "ICON",
+  					"players": []
+  				},
+  				"teamBDetails": {
+  					"teamId": "chain2_8_1",
+  					"teamCommonName": "Crime Cartel",
+  					"teamInternalName": "Team A",
+  					"_id": "65f012fa35472beb87936b24",
+  					"won": 1,
+  					"lost": 0,
+  					"chain": "BASE",
+  					"players": []
+  				}
+  			}
+  		],
+  		"runningMatches": [],
+  		"activeMatchInfo": {
+  			"matchNumber": 7,
+  			"startTime": null,
+  			"title": "Test",
+  			"description": "",
+  			"winner": null,
+  			"url": "",
+  			"isCancelled": 0,
+  			"error": null,
+  			"isComplete": 0,
+  			"teamAId": null,
+  			"teamBId": null,
+  			"players": [
+  				{
+  					"assets": {
+  						"abilities": [],
+  						"equipments": [],
+  						"items": []
+  					},
+  					"nftId": 22,
+  					"teamId": "chain2_8_1",
+  					"currentHolder": "0x9BD79b21af495fF3e6b05aB50205761Be4122896",
+  					"_id": "65f176615518aed71fbbd5f1"
+  				},
+  				{
+  					"assets": {
+  						"abilities": [],
+  						"equipments": [],
+  						"items": []
+  					},
+  					"nftId": 51,
+  					"teamId": "chain2_8_1",
+  					"currentHolder": "0xB8BF1AD25D602135dEcF9d40B3dC1cECa270419E",
+  					"_id": "65f176615518aed71fbbd5f2"
+  				},
+  				{
+  					"assets": {
+  						"abilities": [],
+  						"equipments": [],
+  						"items": []
+  					},
+  					"nftId": 74,
+  					"teamId": "chain2_8_1",
+  					"currentHolder": "0x16973EfE6316B7d1521Adb82B7f6cCa09B73c07b",
+  					"_id": "65f176615518aed71fbbd5f3"
+  				},
+  				{
+  					"assets": {
+  						"abilities": [],
+  						"equipments": [],
+  						"items": []
+  					},
+  					"nftId": 63,
+  					"teamId": "chain2_8_1",
+  					"currentHolder": "0xc0954c03d08Fb58Cf98e482Ed9eAD069Dc53386a",
+  					"_id": "65f176615518aed71fbbd5f4"
+  				}
+  			],
+  			"_id": "65f176615518aed71fbbd5f0",
+  			"roundType": "upperBracket",
+  			"roundNumber": 1,
+  			"teamADetails": null,
+  			"teamBDetails": null
+  		}
+  	}
+  }
 method: POST
 body:
   mimeType: application/json
@@ -21,7 +357,7 @@ headers:
   - name: User-Agent
     value: insomnia/2023.5.8
 authentication: {}
-metaSortKey: -1711055169541
+metaSortKey: -1711055169478.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true
