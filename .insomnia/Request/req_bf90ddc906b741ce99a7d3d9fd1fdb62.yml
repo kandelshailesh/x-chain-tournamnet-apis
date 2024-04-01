@@ -1,7 +1,7 @@
 _id: req_bf90ddc906b741ce99a7d3d9fd1fdb62
 type: Request
 parentId: fld_9a9c26cd234c411e82d974d05482604a
-modified: 1711088927937
+modified: 1711949082784
 created: 1707217155478
 url: "{{baseHost}}/api/tournament/base/join_team"
 name: Join base team
@@ -567,8 +567,8 @@ body:
     	"tournamentId":15,
     	"userAddress":"0x9BD79b21af495fF3e6b05aB50205761Be4122896",
     	"teamId":"chain2_15_1",
-    	"message": "Time:1707910003750",
-    "signature":"0xe40e1a9b01721eeb9d097a505cfbc1f0a748cb84f110042add62d08ecc2d182b7816a0228d626961bd5b43a9eec46f7e004d640066343d2a6f439265412e02821c"
+    	"signedMessage":"Time:1707378799542",
+    "signature":"0x96a9f930c176a8afc96ba11bceacb84f2d57258eb04e3072cb4f1d7d3e99d3784716e0c982cc1abcd29747f47e31b668bebfe0e07f16f72252f42daf50a2d67d1b"
 
     }
 parameters: []

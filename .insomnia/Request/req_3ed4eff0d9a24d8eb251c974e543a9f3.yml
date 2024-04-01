@@ -1,7 +1,7 @@
 _id: req_3ed4eff0d9a24d8eb251c974e543a9f3
 type: Request
 parentId: fld_9a9c26cd234c411e82d974d05482604a
-modified: 1711089433864
+modified: 1711948990754
 created: 1711060785775
 url: "{{iconHost}}/api/tournament/icon/join_team"
 name: Join icon team
@@ -567,7 +567,7 @@ body:
     	"tournamentId":15,
     	"userAddress":"hxd4fdadda8a170ae070c9973a8b4963f3e11671d9",
     	"teamId":"chain1_15_1",
-    	"message": "Time:1707910003750",
+    	"signedMessage": "Time:1707910003750",
     "signature":"0xe40e1a9b01721eeb9d097a505cfbc1f0a748cb84f110042add62d08ecc2d182b7816a0228d626961bd5b43a9eec46f7e004d640066343d2a6f439265412e02821c"
 
     }

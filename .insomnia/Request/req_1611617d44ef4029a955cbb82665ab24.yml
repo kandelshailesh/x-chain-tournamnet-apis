@@ -1,7 +1,7 @@
 _id: req_1611617d44ef4029a955cbb82665ab24
 type: Request
 parentId: fld_5d522f5827334366b4fb5de708ee92f9
-modified: 1711090080622
+modified: 1711949040497
 created: 1710387341865
 url: "{{baseHost}}/api/tournament/get_wallet_linked_status"
 name: Get wallet link status

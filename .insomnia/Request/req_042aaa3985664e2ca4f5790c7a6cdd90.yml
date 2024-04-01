@@ -1,7 +1,7 @@
 _id: req_042aaa3985664e2ca4f5790c7a6cdd90
 type: Request
 parentId: fld_5d522f5827334366b4fb5de708ee92f9
-modified: 1711088386683
+modified: 1711949072042
 created: 1710387863149
 url: "{{baseHost}}/api/tournament/link_icon_wallet"
 name: Link icon wallet
@@ -17,10 +17,14 @@ description: |-
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
     	"baseWalletAddress":"0xc37325E3b338922BC08A7856f20a97f851fD3f4b",
-    	"iconWalletAddress":"hx07ed2cd45a78c2a5e99f2c60d96df541b779293b"
+    	"iconWalletAddress":"hx07ed2cd45a78c2a5e99f2c60d96df541b779293b",
+    	"userAddress":"0xc37325E3b338922BC08A7856f20a97f851fD3f4b",
+    	"signedMessage":"Time:1707378799542",
+    "signature":"0x96a9f930c176a8afc96ba11bceacb84f2d57258eb04e3072cb4f1d7d3e99d3784716e0c982cc1abcd29747f47e31b668bebfe0e07f16f72252f42daf50a2d67d1b"
+
     }
 parameters: []
 headers:
